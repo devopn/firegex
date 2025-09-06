@@ -95,7 +95,7 @@ def load_config():
     import json
     default_config = {
         "port": 60002,
-        "host": "0.0.0.0"
+        "host": "127.0.0.1"
     }
     
     if os.path.isfile(g.configfile):
