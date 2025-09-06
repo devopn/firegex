@@ -94,7 +94,7 @@ def load_config():
     """Load configuration from .firegex-conf.json"""
     import json
     default_config = {
-        "port": 4444,
+        "port": 60002,
         "host": "0.0.0.0"
     }
     
